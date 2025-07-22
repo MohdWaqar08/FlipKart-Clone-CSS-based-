@@ -152,3 +152,18 @@ body {
     font-size: 0.85rem; /* slightly reduced from 0.9rem */
     font-weight: 600;
 }
+
+/* addblock */
+
+.addstrip{
+    height: 200px; /* reduced from 160px */
+    width: 98%;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.addimg{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
