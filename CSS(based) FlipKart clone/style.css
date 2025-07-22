@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #F1F3F6; /* Soft off-white like Flipkart background */
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    background-image: url("FlipKart_logo.png");
+    height: 100%;
+    width: 80%; /* increased from 50% for better logo visibility */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-search {
+    display: flex;
+    width: 440px; /* slightly wider for better input space */
+    height: 40px;
+    background-color: #edf3f8;
+    border-radius: 4px;
+}
+
+.search-icon {
+    height: 24px;
+    width: 24px;
+    padding: 8px 8px 8px 12px;
+    background-color: #edf3f8;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-search input {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    background-color: #edf3f8;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.nav-login {
+    height: 40px;
+    width: 110px;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.login-icon {
+    width: 24px;
+    padding: 0px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-cart {
+    height: 40px;
+    width: 110px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.cart-icon {
+    width: 24px;
+    padding: 0px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-shop {
+    height: 40px;
+    width: 180px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.shop-icon {
+    width: 24px;
+    padding: 0px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
