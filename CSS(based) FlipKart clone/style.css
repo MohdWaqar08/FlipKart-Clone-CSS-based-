@@ -5,20 +5,20 @@
 }
 
 body {
-    background-color: #F1F3F6; /* Soft off-white like Flipkart background */
+    background-color: #F1F3F6;
 }
 
 .navbar {
     background-color: rgb(255, 255, 255);
-    height: 70px;
+    height: 60px; /* changed from 70px */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .nav-logo {
-    width: 160px;
-    height: 40px;
+    width: 140px; /* changed from 160px */
+    height: 35px; /* changed from 40px */
     display: flex;
     justify-content: flex-end;
 }
@@ -26,7 +26,7 @@ body {
 .logo {
     background-image: url("FlipKart_logo.png");
     height: 100%;
-    width: 80%; /* increased from 50% for better logo visibility */
+    width: 70%; /* changed from 80% */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -34,16 +34,16 @@ body {
 
 .nav-search {
     display: flex;
-    width: 440px; /* slightly wider for better input space */
-    height: 40px;
+    width: 400px; /* changed from 440px */
+    height: 35px; /* changed from 40px */
     background-color: #edf3f8;
     border-radius: 4px;
 }
 
 .search-icon {
-    height: 24px;
-    width: 24px;
-    padding: 8px 8px 8px 12px;
+    height: 22px; /* changed from 24px */
+    width: 22px;
+    padding: 6px 6px 6px 10px; /* slightly reduced padding */
     background-color: #edf3f8;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -57,14 +57,14 @@ body {
     border-bottom-right-radius: 4px;
     border: none;
     background-color: #edf3f8;
-    font-size: 1.1rem;
+    font-size: 1rem; /* slightly reduced from 1.1rem */
     width: 100%;
 }
 
 .nav-login {
-    height: 40px;
-    width: 110px;
-    font-size: 1.1rem;
+    height: 35px; /* changed from 40px */
+    width: 100px; /* changed from 110px */
+    font-size: 1rem; /* changed from 1.1rem */
     font-weight: lighter;
     display: flex;
     justify-content: center;
@@ -73,47 +73,81 @@ body {
 }
 
 .login-icon {
-    width: 24px;
-    padding: 0px 8px 0px 0px;
+    width: 22px; /* changed from 24px */
+    padding: 0px 6px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .nav-cart {
-    height: 40px;
-    width: 110px;
+    height: 35px;
+    width: 100px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 100;
 }
 
 .cart-icon {
-    width: 24px;
-    padding: 0px 8px 0px 0px;
+    width: 22px;
+    padding: 0px 6px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .nav-shop {
-    height: 40px;
-    width: 180px;
+    height: 35px;
+    width: 160px; /* reduced from 180px */
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 100;
 }
 
 .shop-icon {
-    width: 24px;
-    padding: 0px 8px 0px 0px;
+    width: 22px;
+    padding: 0px 6px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*nav-menu*/
+
+.nav-menu {
+    height: 140px; /* reduced from 160px */
+    width: 98%;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-box {
+    width: 80px; /* reduced from 90px */
+    height: 100px; /* reduced from 120px */
+    padding: 12px 12px 12px 18px; /* slightly reduced padding */
+    text-align: center;
+}
+
+.menu-img {
+    height: 50px; /* reduced from 70px */
+    width: 70px; /* reduced from 90px */
+    background-size: cover;
+    padding-bottom: 4px;
+    margin-bottom: 12px; /* reduced from 16px */
+}
+
+.menu-box span {
+    margin-top: 4px;
+    height: 18px;
+    font-size: 0.85rem; /* slightly reduced from 0.9rem */
+    font-weight: 600;
 }
